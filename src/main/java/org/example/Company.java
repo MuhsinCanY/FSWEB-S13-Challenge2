@@ -25,7 +25,7 @@ public class Company {
         setDeveloperNames(developerNames);
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return "Company{" +
                 "id=" + id +
@@ -33,7 +33,7 @@ public class Company {
                 ", giro=" + giro +
                 ", developerNames=" + Arrays.toString(developerNames) +
                 '}';
-    }
+    }*/
 
     public int getId() {
         return id;

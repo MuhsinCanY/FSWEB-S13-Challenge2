@@ -14,14 +14,14 @@ public class Healthplan {
         setPlan(plan);
     }
 
-    @Override
+/*    @Override
     public String toString() {
         return "Healthplan{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", plan=" + plan +
                 '}';
-    }
+    }*/
 
     public int getId() {
         return id;

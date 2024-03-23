@@ -28,7 +28,7 @@ public class Employee {
         this.healthPlans = healthplans;
     }
 
-    @Override
+   /* @Override
     public String toString() {
         return "Employee{" +
                 "id=" + id +
@@ -37,7 +37,7 @@ public class Employee {
                 ", password='" + password + '\'' +
                 ", healthplans=" + Arrays.toString(healthPlans) +
                 '}';
-    }
+    }*/
 
     public int getId() {
         return id;
