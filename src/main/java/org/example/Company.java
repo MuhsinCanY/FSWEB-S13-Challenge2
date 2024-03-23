@@ -25,6 +25,7 @@ public class Company {
         setDeveloperNames(developerNames);
     }
 
+    @Override
     public String toString() {
         return "Company{" +
                 "id=" + id +
